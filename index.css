@@ -1,5 +1,10 @@
+*{
+    font-family: Helvetica Neue,Noto Naskh Arabic UI,Arial,sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
 .div_style {
- height: 70vh;
+ margin-top: 5vh;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -12,7 +17,7 @@
 }
 
 input[type="submit"]{
-    background-color: #f8f9fa;
+    background-color: #ebedf0;
     border: 1px solid #f8f9fa;
     cursor: pointer;
     width: 15em;
@@ -27,9 +32,8 @@ input[type="submit"]{
     min-width: 54px;
     text-align: center;
 }
-
-input[type="text"]{
-    border-color: rgb(92, 94, 94) ;
+.text{
+    border-color: #d1d2d3 ;
     border-style: solid;
     width: 25em;
     height: 1.75em;
@@ -41,3 +45,53 @@ input[type="text"]{
     
 }
 
+.text:hover{
+    box-shadow:  1px 1px 10px rgb(163, 162, 162);
+    border-radius: 45px ;
+    border:  solid #d1d2d3;
+}
+
+
+.logo{
+   
+ margin-top: 20vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ 
+}
+
+.top{
+    margin: 25px;
+    padding: 5px;
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    font-size: large;
+    font-family: Helvetica Neue,Noto Naskh Arabic UI,Arial,sans-serif;
+    font-size: 14px;
+    color: rgb(131, 130, 130);
+    flex-direction: row-reverse;
+}
+
+#logo{
+    width: 35px;
+    height: 35px;
+    border-radius: 17px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 20px
+}
+
+.first_cl{
+    width: 20%;
+}
+
+.second_cl{
+    width: 30%;
+}
