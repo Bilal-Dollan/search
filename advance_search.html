@@ -8,45 +8,47 @@
     <link rel="stylesheet" href="/index.css">
   
 </head>
-<body>
+<body >
     <div class="top"  >
-        <img src="/google advance search logo.PNG" alt="google advance search" style="padding-right: 60%;">
-        <a href="/image_search.html" class="top" style="margin: 10px;"> Images</a>
-        <a href="/index.html" class="top" style="margin: 10px;" >Home</a>
-        <img class="links" id="logo" src="/google_logo.png.webp" alt="GOOGLE lOGO">
+        <div class="c1"><img src="/google advance search logo.PNG" alt="google advance search" style="width: 18em;"></div>
+        <div><a href="/image_search.html" class="top" style="margin: 10px;"> Images</a></div>
+        <div> <a href="/index.html" class="top" style="margin: 10px;" >Home</a></div>
+        <div class="c4"><img class="links" id="logo" src="/google_logo.png.webp" alt="GOOGLE lOGO" style="width: 2em;"></div>
     </div>
  
     <hr>
     <br>
-    <div>
+    <div id="ads">
+    <div style="margin-left:3%">
         Find pages With...
     </div>
     <div class="container">
         <div class="first_cl">
             All these words:
         </div>
-        <form action="https://www.google.com/search">
+        <form class="second_cl" action="https://www.google.com/search">
+            
             <div class="second_cl">
-                <input type="text" name="as_q">
-                
+                <input type="text" name="as_q" class="adtxt">
             </div>
         
         </div>
             <div class="container">
                 <div class="first_cl">This exact word or phrase:</div>
-                <div class="second_cl"><input type="text" name="as_epq"></div>
+                <div class="second_cl" ><input type="text" name="as_epq" class="adtxt"></div>
             </div>
 
             <div class="container">
                 <div class="first_cl">any of these words:</div>
-                <div class="second_cl"><input type="text" name="as_oq" name="as_qdr" ></div>
+                <div class="second_cl"><input type="text" name="as_oq" name="as_qdr" class="adtxt"></div>
             </div>
 
             <div class="container">
                 <div class="first_cl">none of these words:</div>
-                <div class="second_cl"><input type="text" name="as_eq"></div>
+                <div class="second_cl"><input type="text" name="as_eq" class="adtxt"></div>
             </div>
-            <input type="submit" value="Advance Search" >
+            <input type="submit" value="Advance Search" style="background-color: #8ab4f8 ; margin-left:35em;">
         </form>
+    
 </body>
 </html>

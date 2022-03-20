@@ -16,7 +16,7 @@
     
 }
 
-input[type="submit"]{
+input[type=submit]{
     background-color: #ebedf0;
     border: 1px solid #f8f9fa;
     cursor: pointer;
@@ -62,19 +62,6 @@ input[type="submit"]{
  
 }
 
-.top{
-    margin: 25px;
-    padding: 5px;
-    display: flex-wrap;
-    justify-content: right;
-    text-decoration: none;
-    font-size: large;
-    font-family: Helvetica Neue,Noto Naskh Arabic UI,Arial,sans-serif;
-    font-size: 14px;
-    color: rgb(131, 130, 130);
-    
-}
-
 #logo{
     width: 35px;
     height: 35px;
@@ -86,12 +73,64 @@ input[type="submit"]{
     display: flex;
     flex-direction: row;
     margin: 20px;
+    margin-left: 4%;
+    font-size: 18px;
 }
 
 .first_cl{
-    width: 20%;
+    flex: 0.5;
+    font-size: 20px;
 }
 
 .second_cl{
-    width: 30%;
+    flex: 4;
+    width: 20em;
+    
+}
+
+.top{
+    display:flex ;
+    margin: 3%;
+    text-decoration: none;
+    font-size: large;
+    font-family: Helvetica Neue,Noto Naskh Arabic UI,Arial,sans-serif;
+    font-size: 1.15em;
+    color: rgb(131, 130, 130);
+    
+    
+}
+.c1{
+    flex: 1;
+    width: max-content;
+}
+.c4{
+    margin-left: 2%;
+}
+.home_top{
+    display: flex;
+    margin: 3%;
+    text-decoration: none;
+    font-size: large;
+    font-family: Helvetica Neue,Noto Naskh Arabic UI,Arial,sans-serif;
+    font-size: 1.15em;
+    color: rgb(131, 130, 130);
+    flex-direction: row-reverse;
+    
+    
+}
+.link_style{
+    margin: 3%;
+    text-decoration: none;
+    font-size: large;
+    font-family: Helvetica Neue,Noto Naskh Arabic UI,Arial,sans-serif;
+    font-size: 1.15em;
+    color: rgb(131, 130, 130);
+}
+
+.adtxt{
+    width: 30em;
+}
+
+#ads{
+    font-size: 25px;
 }
