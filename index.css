@@ -1,5 +1,5 @@
 .div_style {
- height: 70vh;
+ margin-top: 5vh;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -29,7 +29,7 @@ input[type="submit"]{
 }
 
 input[type="text"]{
-    border-color: rgb(92, 94, 94) ;
+    border-color: #d1d2d3 ;
     border-style: solid;
     width: 25em;
     height: 1.75em;
@@ -41,3 +41,26 @@ input[type="text"]{
     
 }
 
+.text:hover{
+    box-shadow:  1px 1px 10px rgb(163, 162, 162);
+    border-radius: 45px ;
+}
+
+.logo{
+   
+ margin-top: 20vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ 
+}
+
+#links{
+    margin: 25px;
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    font-size: larger;
+   
+}
