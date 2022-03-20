@@ -4,11 +4,24 @@
     padding: 0px;
 }
 .div_style {
- margin-top: 5vh;
- display: flex;
- justify-content: center;
- align-items: center;
- flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1em;
+    margin-top: 2vh;
+}
+
+.first_child{
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.second_child{
+    flex-direction: row;
+
+    
 }
 
 .item_div{
@@ -31,7 +44,7 @@ input[type=submit]{
     height: 36px;
     min-width: 54px;
     text-align: center;
-}
+    }
 .text{
     border-color: #d1d2d3 ;
     border-style: solid;
@@ -39,7 +52,7 @@ input[type=submit]{
     height: 1.75em;
     border-radius: 45px ;
     font-size: 25px;
-    padding-left: 25px;
+    padding-left: 35px;
     padding-right: 25px;
     
     
@@ -73,19 +86,26 @@ input[type=submit]{
     display: flex;
     flex-direction: row;
     margin: 20px;
-    margin-left: 4%;
+   justify-content: space-around;
     font-size: 18px;
+    margin-right: 40%;
 }
 
 .first_cl{
-    flex: 0.5;
+    margin-left: 4%;
+    flex: 1;
     font-size: 20px;
+    
 }
 
 .second_cl{
-    flex: 4;
-    width: 20em;
+    flex: 1;
     
+}
+
+.third_cl{
+    flex:1;
+    font-size: medium;
 }
 
 .top{
@@ -128,9 +148,39 @@ input[type=submit]{
 }
 
 .adtxt{
-    width: 30em;
+    width:15em;
+    font-size: 1.3em;
 }
 
 #ads{
     font-size: 25px;
+}
+.search_bt{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 8em;
+    margin-top: 1.5em;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+.image_style{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
