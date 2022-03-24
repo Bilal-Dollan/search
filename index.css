@@ -3,31 +3,6 @@
     margin: 0px;
     padding: 0px;
 }
-.div_style {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 1em;
-    margin-top: 2vh;
-}
-
-.first_child{
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-
-}
-
-.second_child{
-    flex-direction: row;
-
-    
-}
-
-.item_div{
-    margin-top: 1em;
-    
-}
 
 input[type=submit]{
     background-color: #ebedf0;
@@ -53,9 +28,7 @@ input[type=submit]{
     border-radius: 45px ;
     font-size: 25px;
     padding-left: 35px;
-    padding-right: 25px;
-    
-    
+    padding-right: 25px; 
 }
 
 .text:hover{
@@ -64,15 +37,12 @@ input[type=submit]{
     border:  solid #d1d2d3;
 }
 
-
-.logo{
-   
+.logo{  
  margin-top: 20vh;
  display: flex;
  justify-content: center;
  align-items: center;
  flex-direction: column;
- 
 }
 
 #logo{
@@ -82,105 +52,111 @@ input[type=submit]{
     padding: 0px;
 }
 
-.container{
-    display: flex;
-    flex-direction: row;
-    margin: 20px;
-   justify-content: space-around;
-    font-size: 18px;
-    margin-right: 40%;
-}
-
-.first_cl{
-    margin-left: 4%;
-    flex: 1;
-    font-size: 20px;
-    
-}
-
-.second_cl{
-    flex: 1;
-    
-}
-
-.third_cl{
-    flex:1;
-    font-size: medium;
-}
-
 .top{
     display:flex ;
     margin: 3%;
     text-decoration: none;
-    font-size: large;
     font-family: Helvetica Neue,Noto Naskh Arabic UI,Arial,sans-serif;
-    font-size: 1.15em;
-    color: rgb(131, 130, 130);
-    
-    
-}
-.c1{
-    flex: 1;
-    width: max-content;
-}
-.c4{
-    margin-left: 2%;
-}
-.home_top{
-    display: flex;
-    margin: 3%;
-    text-decoration: none;
-    font-size: large;
-    font-family: Helvetica Neue,Noto Naskh Arabic UI,Arial,sans-serif;
-    font-size: 1.15em;
-    color: rgb(131, 130, 130);
-    flex-direction: row-reverse;
-    
-    
-}
-.link_style{
-    margin: 3%;
-    text-decoration: none;
-    font-size: large;
-    font-family: Helvetica Neue,Noto Naskh Arabic UI,Arial,sans-serif;
-    font-size: 1.15em;
-    color: rgb(131, 130, 130);
 }
 
-.adtxt{
-    width:15em;
-    font-size: 1.3em;
-}
+/* Advance search css */
 
-#ads{
-    font-size: 25px;
-}
-.search_bt{
+.container{
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#333;}
+
+.container_home{
     display: flex;
-    flex-direction: row;
-    margin-top: 1em;
-}
+    align-items: center;
+    height: 50vh;   
+    }
 
 .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    padding-left: 8em;
-    margin-top: 1.5em;
+    font-size: 14px;
+    font-family: arial,sans-serif;
   }
-
+  
   .column {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
+    align-items: flex-start;
+    
   }
 
-.image_style{
-    margin-top: 2vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  .icon{
+      width: 32px;
+      height: 32px;
+      padding: 10px;
+  }
+
+  a{
+      text-decoration: none;
+      padding: 10px;
+      padding-top: 19px;
+      font-family: arial,sans-serif;
+      font-size: 14px;
+      color: black;
+  }
+
+.border{
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    color: -internal-light-dark(black, white);
+    display: inline-block;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    position: absolute;
+    width: 200px;
 }
+
+.grid_cont{
+display: grid;
+column-gap: 15px;
+grid-template-columns: 190px 425px 300PX;
+row-gap: 30px;
+padding-left: 30px;
+}
+
+.info{
+    font-size: 12px;
+}
+.button{
+    height: 30px;
+    min-width: 120px;
+    float: right;
+    margin: 10px 0;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    appearance: auto;
+    box-sizing: border-box;
+    margin-left: 500px;
+}
+
+.border:focus {
+    outline: none !important;
+    border:1px solid#3079ed;
+    box-shadow: 0 0 2px #719ECE;
+  }
+
+  @media screen and (max-width:700px) {
+      #tr,.info{
+         visibility: hidden;
+      } 
+  }

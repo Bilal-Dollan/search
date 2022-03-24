@@ -6,29 +6,31 @@
         <link rel="stylesheet" href="index.css">
     </head>
     
-    <body>
+    <body style="margin: 18px;">
 
-        <div class="top" style="flex-direction: row-reverse;">
-            <img class="links" id="logo" src="/google_logo.png.webp" alt="GOOGLE lOGO">
-            <a href="/image_search.html" class="top" style="margin: 10px;"> Images</a>
-            <a href="/advance_search.html" class="top" style="margin: 10px;">Advane Search</a>
+        <div class="row" style="flex-direction: row-reverse;padding: 0; ">
+            <img class="icon" src="/google_logo.png.webp" alt="GOOGLE lOGO">
+            <a href="/image_search.html" > Images</a>
+            <a href="/advance_search.html" >Advane Search</a>
         </div>
         
-        <div class="logo">
+        <div class=" center" >
+        <div  class="column">
             <img src="https://www.google.iq/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
         </div>
 
-        <div class="div_style">
             <form action="https://www.google.com/search">
-                <div class="column">
+                <div class="row">
                     <input class="text" type="text" name="q"> 
                 </div>
-                <div class="row">
-                    <input type="submit" value="Google Search" >
-                    <input type="submit" name="btnI" value="I'm Feeling Lucky" > 
+                <div >
+                    <div  class="row">
+                        <input type="submit" value="Google Search" >
+                        <input type="submit" name="btnI" value="I'm Feeling Lucky" > 
+                    </div>
+                </div>
             </form>
            
-                </div>
         </div>   
     </body>
 </html>
