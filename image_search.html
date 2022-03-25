@@ -7,28 +7,28 @@
        
     </head>
     
-    <body>
+    <body style="margin: 18px;">
 
-        <div class="top" style="flex-direction: row-reverse;">
-            <img class="links" id="logo" src="/google_logo.png.webp" alt="GOOGLE lOGO">
-            <a href="/index.html" class="top" style="margin: 10px;"> Home</a>
-            <a href="/advance_search.html" class="top" style="margin: 10px;">Advane Search</a>
+        <div class="row"style="flex-direction: row-reverse;padding: 0; ">
+            <img class="icon"  src="/google_logo.png.webp" alt="GOOGLE lOGO">
+            <a href="/index.html" > Home</a>
+            <a href="/advance_search.html" >Advane Search</a>
         </div>
 
         <div class="logo">
             <img src="/Capture.PNG" alt="Google Logo">
-        </div>
 
-        <form action="https://www.google.com/search">
-            <div class="image_style">
-               <div class="item_div "> <input class="text" type="text" name="q"> </div>
-               <input type="hidden" name="tbm" value="isch">
-               <input type="hidden" name="sclientz" value="img">
-               <input type="hidden" name="hl" value="en">
-               <div class="item_div submit"><input type="submit" value="Google Search" style="visibility: hidden;"></div>
+            <div class="div_style" >
+                <form action="https://www.google.com/search">
+                    <div class="column_h">
+                        <input type="hidden" name="tbm" value="isch">
+                        <input type="hidden" name="sclientz" value="img">
+                        <input type="hidden" name="hl" value="en">
+                        <input  type="text" name="q" class="text">
+                    </div>
+                    <input type="submit" value="Google Search" style="visibility: hidden;">
+                </form>
             </div>
-        </form>
-
+        </div>
     </body>
-
 </html>
