@@ -227,7 +227,7 @@ padding-left: 30px;
 
 #search_icon{
     top: 0;
-    width: 100%;
+   
     position: absolutes;
     margin-top: -28px;
     margin-left: 15px;
@@ -237,7 +237,7 @@ padding-left: 30px;
 
 #mic_icon{
     top: 0;
-    width: 100%;
+  
     position: absolutes;
     margin-top: -24px;
     margin-left: 550px;
@@ -247,7 +247,7 @@ padding-left: 30px;
 
 #mic_icon_image{
     top: 0;
-    width: 100%;
+    
     position: absolutes;
     margin-top: -24px;
     margin-left: 500px;
@@ -263,23 +263,7 @@ padding-left: 30px;
     position: absolutes;
     margin-top: -36px;
     margin-left: 530px;
-    cursor: pointer;
-
 }
 
-/*----*/
 
-button {
-    background-image: url(/tempsnip.png);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    height: 38px;
-    width: 38px;
-    border: none;
-    
-    
-  }
-  
-  button span {
-    display: none;
-  }
+
